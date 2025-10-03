@@ -191,7 +191,7 @@ while running:
 
             x, y = pygame.mouse.get_pos()
             col = (x - 10) // width
-            row = (y - 40) // height
+            row = (y - 50) // height
 
             if pygame.mouse.get_pressed()[0]: #left click
 
